@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PointerPy"
+version = "0.1.0"
+description = "A Python library for working with memory pointers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Pietrut" }
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+dependencies = [
+    "pymem"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+]
