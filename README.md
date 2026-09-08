@@ -14,6 +14,11 @@ PointerPy provides an object-oriented interface for resolving pointer chains, re
 * Modify pointer configuration at runtime
 * Built on top of [PyMem](https://github.com/srounet/Pymem)
 
+## Installation
+```text
+pip install git+https://github.com/Pietrut/PointerPy.git
+```
+
 ## Quick Start
 
 ### Example
